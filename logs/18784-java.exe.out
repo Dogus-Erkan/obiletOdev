@@ -1,0 +1,27 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+{"logLevel":"debug","message":"gauge-java took 426milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 426"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 57514"}
+{"logLevel":"info","message":"Listening on port:57514"}
+2174 [pool-1-thread-1] INFO org.reflections.Reflections - Reflections took 2169 ms to scan 96 urls, producing 10995 keys and 58404 values 
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'com.obilet.steps.StepImplementation.clickElement' and 'com.obilet.steps.StepImplementation.clickElement'"}
+{"logLevel":"debug","message":"Found Elementine tıkla {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.obilet.steps.StepImplementation.findElementEx' and 'com.obilet.steps.StepImplementation.findElementEx'"}
+{"logLevel":"debug","message":"Found {} tipindeki elementin ekranda bulunduğunu kontrol et {} in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\t{} tipindeki elementin ekranda bulunduğunu kontrol et {} : public void findElementEx(String type, String elementID)"}
+{"logLevel":"debug","message":"\tElementine tıkla {} : public void clickElement(String elementID)"}
+3964 [pool-2-thread-1] INFO org.reflections.Reflections - Reflections took 1748 ms to scan 96 urls, producing 10905 keys and 49493 values 
+Driver Ayağa Kalkıyor...
+Ara 09, 2023 6:52:56 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} tipindeki elementin ekranda bulunduğunu kontrol et {}' using 'class com.obilet.steps.StepImplementation.findElementEx"}
+Hatalı bir tip girildi!
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

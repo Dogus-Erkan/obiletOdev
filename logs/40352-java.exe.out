@@ -1,0 +1,91 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+{"logLevel":"debug","message":"gauge-java took 433milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 433"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 60746"}
+{"logLevel":"info","message":"Listening on port:60746"}
+2304 [pool-1-thread-1] INFO org.reflections.Reflections - Reflections took 2299 ms to scan 99 urls, producing 11174 keys and 59074 values 
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'com.obilet.steps.StepImplementation.sendKeysToElementSt' and 'com.obilet.steps.StepImplementation.sendKeysToElementSt'"}
+{"logLevel":"debug","message":"Found {} tipindeki elemente {} değeri yazılır {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.obilet.steps.StepImplementation.waitForElementVisibilitySt' and 'com.obilet.steps.StepImplementation.waitForElementVisibilitySt'"}
+{"logLevel":"debug","message":"Found {} tipindeki Element Görünene Kadar Beklenir {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.obilet.steps.StepImplementation.waitForSt' and 'com.obilet.steps.StepImplementation.waitForSt'"}
+{"logLevel":"debug","message":"Found {} saniye beklenir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.obilet.steps.StepImplementation.selectPassengerSt' and 'com.obilet.steps.StepImplementation.selectPassengerSt'"}
+{"logLevel":"debug","message":"Found Koltuk sayısı {} değeri kadar seçilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.obilet.steps.StepImplementation.isElementExistSt' and 'com.obilet.steps.StepImplementation.isElementExistSt'"}
+{"logLevel":"debug","message":"Found {} tipindeki elementin ekranda bulunduğu kontrol edilir {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.obilet.steps.StepImplementation.clickElementST' and 'com.obilet.steps.StepImplementation.clickElementST'"}
+{"logLevel":"debug","message":"Found {} tipindeki elemente tıklanır {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.obilet.steps.StepImplementation.sendKeysToElementAndClickSt' and 'com.obilet.steps.StepImplementation.sendKeysToElementAndClickSt'"}
+{"logLevel":"debug","message":"Found {} tipindeki elemente tıklanır ve {} değeri yazılır {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.obilet.steps.StepImplementation.findElementOnNewPageSt' and 'com.obilet.steps.StepImplementation.findElementOnNewPageSt'"}
+{"logLevel":"debug","message":"Found {} tipindeki elementin geçiş yapılan sayfada olduğunu kontrol edilir {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.obilet.steps.StepImplementation.selectRandomDateSt' and 'com.obilet.steps.StepImplementation.selectRandomDateSt'"}
+{"logLevel":"debug","message":"Found Rastgele bir gidiş tarihi seçilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.obilet.steps.StepImplementation.selectRandomTripSt' and 'com.obilet.steps.StepImplementation.selectRandomTripSt'"}
+{"logLevel":"debug","message":"Found Rastgele bir sefer seçilir in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\t{} tipindeki elementin geçiş yapılan sayfada olduğunu kontrol edilir {} : public void findElementOnNewPageSt(String type, String elementLocator)"}
+{"logLevel":"debug","message":"\t{} tipindeki Element Görünene Kadar Beklenir {} : public void waitForElementVisibilitySt(String type, String elementLocator)"}
+{"logLevel":"debug","message":"\t{} tipindeki elementin ekranda bulunduğu kontrol edilir {} : public void isElementExistSt(String type, String elementLocator)"}
+{"logLevel":"debug","message":"\t{} tipindeki elemente {} değeri yazılır {} : public void sendKeysToElementSt(String type, String text, String elementLocator)"}
+{"logLevel":"debug","message":"\t{} tipindeki elemente tıklanır ve {} değeri yazılır {} : public void sendKeysToElementAndClickSt(String type, String elementLocator, String text)"}
+{"logLevel":"debug","message":"\t{} saniye beklenir : public void waitForSt(ınt second)"}
+{"logLevel":"debug","message":"\t{} tipindeki elemente tıklanır {} : public void clickElementST(String type, String elementLocator)"}
+{"logLevel":"debug","message":"\tKoltuk sayısı {} değeri kadar seçilir : public void selectPassengerSt(ınt number)"}
+{"logLevel":"debug","message":"\tRastgele bir sefer seçilir : public void selectRandomTripSt()"}
+{"logLevel":"debug","message":"\tRastgele bir gidiş tarihi seçilir : public void selectRandomDateSt()"}
+4013 [pool-2-thread-1] INFO org.reflections.Reflections - Reflections took 1679 ms to scan 99 urls, producing 11079 keys and 50108 values 
+Driver Ayağa Kalkıyor...
+Ara 11, 2023 9:40:18 AM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} tipindeki elementin ekranda bulunduğu kontrol edilir {}' using 'class com.obilet.steps.StepImplementation.isElementExistSt"}
+{"logLevel":"debug","message":"Executing '{} tipindeki elemente tıklanır {}' using 'class com.obilet.steps.StepImplementation.clickElementST"}
+{"logLevel":"debug","message":"Executing '{} tipindeki elementin geçiş yapılan sayfada olduğunu kontrol edilir {}' using 'class com.obilet.steps.StepImplementation.findElementOnNewPageSt"}
+{"logLevel":"debug","message":"Executing '{} tipindeki elemente tıklanır {}' using 'class com.obilet.steps.StepImplementation.clickElementST"}
+{"logLevel":"debug","message":"Executing '{} tipindeki elementin geçiş yapılan sayfada olduğunu kontrol edilir {}' using 'class com.obilet.steps.StepImplementation.findElementOnNewPageSt"}
+{"logLevel":"debug","message":"Executing '{} tipindeki elemente tıklanır {}' using 'class com.obilet.steps.StepImplementation.clickElementST"}
+{"logLevel":"debug","message":"Executing '{} tipindeki elemente tıklanır {}' using 'class com.obilet.steps.StepImplementation.clickElementST"}
+{"logLevel":"debug","message":"Executing '{} tipindeki elemente {} değeri yazılır {}' using 'class com.obilet.steps.StepImplementation.sendKeysToElementSt"}
+{"logLevel":"debug","message":"Executing '{} tipindeki elemente tıklanır {}' using 'class com.obilet.steps.StepImplementation.clickElementST"}
+{"logLevel":"debug","message":"Executing '{} tipindeki elemente {} değeri yazılır {}' using 'class com.obilet.steps.StepImplementation.sendKeysToElementSt"}
+{"logLevel":"debug","message":"Executing '{} tipindeki elemente tıklanır {}' using 'class com.obilet.steps.StepImplementation.clickElementST"}
+{"logLevel":"debug","message":"Executing '{} tipindeki elementin geçiş yapılan sayfada olduğunu kontrol edilir {}' using 'class com.obilet.steps.StepImplementation.findElementOnNewPageSt"}
+{"logLevel":"debug","message":"Executing '{} tipindeki elemente tıklanır {}' using 'class com.obilet.steps.StepImplementation.clickElementST"}
+{"logLevel":"debug","message":"Executing '{} tipindeki elementin geçiş yapılan sayfada olduğunu kontrol edilir {}' using 'class com.obilet.steps.StepImplementation.findElementOnNewPageSt"}
+Driver Kapatıldı.
+Driver Ayağa Kalkıyor...
+Ara 11, 2023 9:40:39 AM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} tipindeki elementin ekranda bulunduğu kontrol edilir {}' using 'class com.obilet.steps.StepImplementation.isElementExistSt"}
+{"logLevel":"debug","message":"Executing '{} tipindeki elemente tıklanır {}' using 'class com.obilet.steps.StepImplementation.clickElementST"}
+{"logLevel":"debug","message":"Executing '{} tipindeki elementin ekranda bulunduğu kontrol edilir {}' using 'class com.obilet.steps.StepImplementation.isElementExistSt"}
+{"logLevel":"debug","message":"Executing '{} tipindeki elementin ekranda bulunduğu kontrol edilir {}' using 'class com.obilet.steps.StepImplementation.isElementExistSt"}
+{"logLevel":"debug","message":"Executing '{} tipindeki elemente tıklanır {}' using 'class com.obilet.steps.StepImplementation.clickElementST"}
+{"logLevel":"debug","message":"Executing '{} tipindeki elemente {} değeri yazılır {}' using 'class com.obilet.steps.StepImplementation.sendKeysToElementSt"}
+{"logLevel":"debug","message":"Executing '{} tipindeki Element Görünene Kadar Beklenir {}' using 'class com.obilet.steps.StepImplementation.waitForElementVisibilitySt"}
+{"logLevel":"debug","message":"Executing '{} tipindeki elemente tıklanır {}' using 'class com.obilet.steps.StepImplementation.clickElementST"}
+{"logLevel":"debug","message":"Executing '{} tipindeki elemente tıklanır {}' using 'class com.obilet.steps.StepImplementation.clickElementST"}
+{"logLevel":"debug","message":"Executing '{} tipindeki elemente {} değeri yazılır {}' using 'class com.obilet.steps.StepImplementation.sendKeysToElementSt"}
+{"logLevel":"debug","message":"Executing '{} tipindeki Element Görünene Kadar Beklenir {}' using 'class com.obilet.steps.StepImplementation.waitForElementVisibilitySt"}
+{"logLevel":"debug","message":"Executing '{} tipindeki elemente tıklanır {}' using 'class com.obilet.steps.StepImplementation.clickElementST"}
+{"logLevel":"debug","message":"Executing '{} tipindeki elemente tıklanır {}' using 'class com.obilet.steps.StepImplementation.clickElementST"}
+{"logLevel":"debug","message":"Executing '{} tipindeki elementin ekranda bulunduğu kontrol edilir {}' using 'class com.obilet.steps.StepImplementation.isElementExistSt"}
+{"logLevel":"debug","message":"Executing 'Rastgele bir gidiş tarihi seçilir' using 'class com.obilet.steps.StepImplementation.selectRandomDateSt"}
+{"logLevel":"debug","message":"Executing '{} tipindeki elemente tıklanır {}' using 'class com.obilet.steps.StepImplementation.clickElementST"}
+{"logLevel":"debug","message":"Executing '{} tipindeki elementin geçiş yapılan sayfada olduğunu kontrol edilir {}' using 'class com.obilet.steps.StepImplementation.findElementOnNewPageSt"}
+{"logLevel":"debug","message":"Executing '{} tipindeki elementin ekranda bulunduğu kontrol edilir {}' using 'class com.obilet.steps.StepImplementation.isElementExistSt"}
+{"logLevel":"debug","message":"Executing 'Rastgele bir sefer seçilir' using 'class com.obilet.steps.StepImplementation.selectRandomTripSt"}
+{"logLevel":"debug","message":"Executing '{} tipindeki elementin ekranda bulunduğu kontrol edilir {}' using 'class com.obilet.steps.StepImplementation.isElementExistSt"}
+{"logLevel":"debug","message":"Executing 'Koltuk sayısı {} değeri kadar seçilir' using 'class com.obilet.steps.StepImplementation.selectPassengerSt"}
+{"logLevel":"debug","message":"Executing '{} tipindeki elemente tıklanır {}' using 'class com.obilet.steps.StepImplementation.clickElementST"}
+{"logLevel":"debug","message":"Executing '{} tipindeki elementin geçiş yapılan sayfada olduğunu kontrol edilir {}' using 'class com.obilet.steps.StepImplementation.findElementOnNewPageSt"}
+Driver Kapatıldı.
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

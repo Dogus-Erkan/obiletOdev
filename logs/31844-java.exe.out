@@ -1,0 +1,11 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: The following loggers will not work because they were created
+SLF4J: during the default configuration phase of the underlying logging system.
+SLF4J: See also http://www.slf4j.org/codes.html#substituteLogger
+SLF4J: org.reflections.Reflections
+{"logLevel":"debug","message":"gauge-java took 459milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 459"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 60691"}
+{"logLevel":"info","message":"Listening on port:60691"}

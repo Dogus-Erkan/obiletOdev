@@ -1,0 +1,58 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+{"logLevel":"debug","message":"gauge-java took 455milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 455"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 50904"}
+{"logLevel":"info","message":"Listening on port:50904"}
+2155 [pool-1-thread-1] INFO org.reflections.Reflections - Reflections took 2152 ms to scan 99 urls, producing 11173 keys and 59073 values 
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'com.obilet.steps.StepImplementation.sendKeysToElement' and 'com.obilet.steps.StepImplementation.sendKeysToElement'"}
+{"logLevel":"debug","message":"Found {} tipindeki elemente {} değeri yazılır {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.obilet.steps.StepImplementation.selectRandomDate' and 'com.obilet.steps.StepImplementation.selectRandomDate'"}
+{"logLevel":"debug","message":"Found Rastgele bir gidiş tarihi seçilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.obilet.steps.StepImplementation.selectRandomTrip' and 'com.obilet.steps.StepImplementation.selectRandomTrip'"}
+{"logLevel":"debug","message":"Found Koltuk sayısı {} değeri kadar seçilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.obilet.steps.StepImplementation.selectRandomTrip' and 'com.obilet.steps.StepImplementation.selectRandomTrip'"}
+{"logLevel":"debug","message":"Found Rastgele bir sefer seçilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.obilet.steps.StepImplementation.sendKeysToElementAndClick' and 'com.obilet.steps.StepImplementation.sendKeysToElementAndClick'"}
+{"logLevel":"debug","message":"Found {} tipindeki elemente tıklanır ve {} değeri yazılır {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.obilet.steps.StepImplementation.waitForElementVisibility' and 'com.obilet.steps.StepImplementation.waitForElementVisibility'"}
+{"logLevel":"debug","message":"Found {} tipindeki Element Görünene Kadar Beklenir {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.obilet.steps.StepImplementation.isElementExist' and 'com.obilet.steps.StepImplementation.isElementExist'"}
+{"logLevel":"debug","message":"Found {} tipindeki elementin ekranda bulunduğu kontrol edilir {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.obilet.steps.StepImplementation.waitFor' and 'com.obilet.steps.StepImplementation.waitFor'"}
+{"logLevel":"debug","message":"Found {} saniye beklenir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.obilet.steps.StepImplementation.findElementOnNewPage' and 'com.obilet.steps.StepImplementation.findElementOnNewPage'"}
+{"logLevel":"debug","message":"Found {} tipindeki elementin geçiş yapılan sayfada olduğunu kontrol edilir {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.obilet.steps.StepImplementation.clickElement' and 'com.obilet.steps.StepImplementation.clickElement'"}
+{"logLevel":"debug","message":"Found {} tipindeki elemente tıklanır {} in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\t{} tipindeki elementin geçiş yapılan sayfada olduğunu kontrol edilir {} : public void findElementOnNewPage(String type, String elementLocator)"}
+{"logLevel":"debug","message":"\t{} tipindeki Element Görünene Kadar Beklenir {} : public void waitForElementVisibility(String type, String elementLocator)"}
+{"logLevel":"debug","message":"\t{} tipindeki elementin ekranda bulunduğu kontrol edilir {} : public void isElementExist(String type, String elementLocator)"}
+{"logLevel":"debug","message":"\t{} tipindeki elemente {} değeri yazılır {} : public void sendKeysToElement(String type, String text, String elementLocator)"}
+{"logLevel":"debug","message":"\t{} tipindeki elemente tıklanır ve {} değeri yazılır {} : public void sendKeysToElementAndClick(String type, String elementLocator, String text)"}
+{"logLevel":"debug","message":"\t{} saniye beklenir : public void waitFor(ınt second)"}
+{"logLevel":"debug","message":"\t{} tipindeki elemente tıklanır {} : public void clickElement(String type, String elementLocator)"}
+{"logLevel":"debug","message":"\tKoltuk sayısı {} değeri kadar seçilir : public void selectRandomTrip(ınt number)"}
+{"logLevel":"debug","message":"\tRastgele bir sefer seçilir : public void selectRandomTrip()"}
+{"logLevel":"debug","message":"\tRastgele bir gidiş tarihi seçilir : public void selectRandomDate()"}
+3911 [pool-2-thread-1] INFO org.reflections.Reflections - Reflections took 1725 ms to scan 99 urls, producing 11078 keys and 50107 values 
+Driver Ayağa Kalkıyor...
+Ara 10, 2023 1:52:09 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} tipindeki elementin ekranda bulunduğu kontrol edilir {}' using 'class com.obilet.steps.StepImplementation.isElementExist"}
+39849 [pool-2-thread-1] ERROR com.obilet.steps.StepImplementation - Beklenmeyen bir hata oluştu: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-B4FV16V', ip: '192.168.1.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_391'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.obilet.androidside.pres..., appPackage: com.obilet.androidside, databaseEnabled: false, desired: {appActivity: com.obilet.androidside.pres..., appPackage: com.obilet.androidside, deviceName: Pixel 7 API 33, platformName: android, platformVersion: 13.0, udid: emulator-5554}, deviceApiLevel: 33, deviceManufacturer: Google, deviceModel: sdk_gphone64_x86_64, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 63, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 2274, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: a0ccb253-a38a-4258-9cc8-f0aaefe20d04
+*** Element info: {Using=id, value=com.obilet.androidside:id/find_bus_journey_find_buttodsn}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

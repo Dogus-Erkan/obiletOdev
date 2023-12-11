@@ -1,0 +1,9 @@
+<testsuites>
+	<testsuite id="1" tests="2" failures="0" package="C:\Users\dogus\IdeaProjects\ObiletOdev\specs\ObiletSpec\UyeOl.spec" time="52.944" timestamp="2023-12-11T09:41:01" name="Obilet Odev Caseleri" errors="0" hostname="DESKTOP-B4FV16V">
+		<properties></properties>
+		<testcase classname="Obilet Odev Caseleri" name="Yeni Uyelik Olusturulmasi" time="25.543"></testcase>
+		<testcase classname="Obilet Odev Caseleri" name="Otobus Bileti Checkout Adimina Gitme" time="27.401"></testcase>
+		<system-out></system-out>
+		<system-err></system-err>
+	</testsuite>
+</testsuites>

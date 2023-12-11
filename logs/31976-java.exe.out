@@ -1,0 +1,53 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+{"logLevel":"debug","message":"gauge-java took 430milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 430"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 56011"}
+{"logLevel":"info","message":"Listening on port:56011"}
+2225 [pool-1-thread-1] INFO org.reflections.Reflections - Reflections took 2220 ms to scan 99 urls, producing 11173 keys and 59070 values 
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'com.obilet.StepImplementation.sendKeysToElement' and 'com.obilet.StepImplementation.sendKeysToElement'"}
+{"logLevel":"debug","message":"Found {} tipindeki elemente {} değeri yazılır {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.obilet.StepImplementation.selectRandomDate' and 'com.obilet.StepImplementation.selectRandomDate'"}
+{"logLevel":"debug","message":"Found Random bir tarih seçilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.obilet.StepImplementation.sendKeysToElementAndClick' and 'com.obilet.StepImplementation.sendKeysToElementAndClick'"}
+{"logLevel":"debug","message":"Found {} tipindeki elemente tıklanır ve {} değeri yazılır {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.obilet.StepImplementation.isElementExist' and 'com.obilet.StepImplementation.isElementExist'"}
+{"logLevel":"debug","message":"Found {} tipindeki elementin ekranda bulunduğunu kontrol edilir {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.obilet.StepImplementation.waitFor' and 'com.obilet.StepImplementation.waitFor'"}
+{"logLevel":"debug","message":"Found {} saniye beklenir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.obilet.StepImplementation.findElementOnNewPage' and 'com.obilet.StepImplementation.findElementOnNewPage'"}
+{"logLevel":"debug","message":"Found {} tipindeki element ile geçiş yapılan sayfada olduğunu kontrol edilir {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.obilet.StepImplementation.clickElement' and 'com.obilet.StepImplementation.clickElement'"}
+{"logLevel":"debug","message":"Found {} tipindeki elemente tıklanır {} in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\t{} tipindeki element ile geçiş yapılan sayfada olduğunu kontrol edilir {} : public void findElementOnNewPage(String type, String elementLocator)"}
+{"logLevel":"debug","message":"\tRandom bir tarih seçilir : public void selectRandomDate()"}
+{"logLevel":"debug","message":"\t{} tipindeki elemente {} değeri yazılır {} : public void sendKeysToElement(String type, String text, String elementLocator)"}
+{"logLevel":"debug","message":"\t{} tipindeki elemente tıklanır ve {} değeri yazılır {} : public void sendKeysToElementAndClick(String type, String elementLocator, String text)"}
+{"logLevel":"debug","message":"\t{} saniye beklenir : public void waitFor(ınt second)"}
+{"logLevel":"debug","message":"\t{} tipindeki elemente tıklanır {} : public void clickElement(String type, String elementLocator)"}
+{"logLevel":"debug","message":"\t{} tipindeki elementin ekranda bulunduğunu kontrol edilir {} : public void isElementExist(String type, String elementLocator)"}
+4185 [pool-2-thread-1] INFO org.reflections.Reflections - Reflections took 1928 ms to scan 99 urls, producing 11078 keys and 50107 values 
+Driver Ayağa Kalkıyor...
+Ara 09, 2023 11:35:01 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} tipindeki elementin ekranda bulunduğunu kontrol edilir {}' using 'class com.obilet.StepImplementation.isElementExist"}
+{"logLevel":"debug","message":"Executing '{} tipindeki elemente tıklanır {}' using 'class com.obilet.StepImplementation.clickElement"}
+{"logLevel":"debug","message":"Executing '{} tipindeki elementin ekranda bulunduğunu kontrol edilir {}' using 'class com.obilet.StepImplementation.isElementExist"}
+{"logLevel":"debug","message":"Executing '{} tipindeki elementin ekranda bulunduğunu kontrol edilir {}' using 'class com.obilet.StepImplementation.isElementExist"}
+{"logLevel":"debug","message":"Executing '{} tipindeki elemente tıklanır {}' using 'class com.obilet.StepImplementation.clickElement"}
+{"logLevel":"debug","message":"Executing '{} tipindeki elemente {} değeri yazılır {}' using 'class com.obilet.StepImplementation.sendKeysToElement"}
+{"logLevel":"debug","message":"Executing '{} saniye beklenir' using 'class com.obilet.StepImplementation.waitFor"}
+{"logLevel":"debug","message":"Executing '{} tipindeki elemente tıklanır {}' using 'class com.obilet.StepImplementation.clickElement"}
+{"logLevel":"debug","message":"Executing '{} tipindeki elemente tıklanır {}' using 'class com.obilet.StepImplementation.clickElement"}
+{"logLevel":"debug","message":"Executing '{} tipindeki elemente {} değeri yazılır {}' using 'class com.obilet.StepImplementation.sendKeysToElement"}
+{"logLevel":"debug","message":"Executing '{} saniye beklenir' using 'class com.obilet.StepImplementation.waitFor"}
+{"logLevel":"debug","message":"Executing '{} tipindeki elemente tıklanır {}' using 'class com.obilet.StepImplementation.clickElement"}
+{"logLevel":"debug","message":"Executing '{} tipindeki elemente tıklanır {}' using 'class com.obilet.StepImplementation.clickElement"}
+{"logLevel":"debug","message":"Executing '{} tipindeki elementin ekranda bulunduğunu kontrol edilir {}' using 'class com.obilet.StepImplementation.isElementExist"}
+{"logLevel":"debug","message":"Executing 'Random bir tarih seçilir' using 'class com.obilet.StepImplementation.selectRandomDate"}
+Random Sayı: 46
+{"logLevel":"debug","message":"Executing '{} saniye beklenir' using 'class com.obilet.StepImplementation.waitFor"}

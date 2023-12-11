@@ -1,0 +1,65 @@
+# Anasayfanın acildigini kontrol et
+* "id" tipindeki elementin ekranda bulunduğu kontrol edilir "com.obilet.androidside:id/find_bus_journey_find_button"
+
+# Hesabım Sekmesine Tıklanır
+* "id" tipindeki elemente tıklanır "com.obilet.androidside:id/bottom_nav_account"
+* "id" tipindeki elementin geçiş yapılan sayfada olduğunu kontrol edilir "com.obilet.androidside:id/login_button_main_account"
+
+# Üye Girişi Yap Butonuna Tıklanır
+* "id" tipindeki elemente tıklanır "com.obilet.androidside:id/login_button_main_account"
+* "id" tipindeki elementin geçiş yapılan sayfada olduğunu kontrol edilir "com.obilet.androidside:id/not_member_label_textView"
+
+# Mail ve Password Alanı Girilerek Üye Olunur
+* "xpath" tipindeki elemente tıklanır "//android.widget.TextView[@text='HEMEN ÜYE OL']"
+* "xpath" tipindeki elemente tıklanır "(//android.widget.EditText[@resource-id='com.obilet.androidside:id/input_editText'])[1]"
+* "xpath" tipindeki elemente "obiletappiumodevi@doguserkan.com" değeri yazılır "(//android.widget.EditText[@resource-id='com.obilet.androidside:id/input_editText'])[1]"
+* "xpath" tipindeki elemente tıklanır "(//android.widget.EditText[@resource-id='com.obilet.androidside:id/input_editText'])[2]"
+* "xpath" tipindeki elemente "sifre12345" değeri yazılır "(//android.widget.EditText[@resource-id='com.obilet.androidside:id/input_editText'])[2]"
+* "id" tipindeki elemente tıklanır "com.obilet.androidside:id/sign_up_button"
+* "id" tipindeki elementin geçiş yapılan sayfada olduğunu kontrol edilir "com.obilet.androidside:id/welcome_textView"
+
+# Ara Butonuna Tıklanır
+* "id" tipindeki elemente tıklanır "com.obilet.androidside:id/bottom_nav_find_journey"
+* "id" tipindeki elementin geçiş yapılan sayfada olduğunu kontrol edilir "com.obilet.androidside:id/find_bus_journey_departure_today_button"
+
+# Otobüs Sekmesine Tıklanır ve Search Alanı Kontrol Edilir
+* "xpath" tipindeki elemente tıklanır "//android.widget.FrameLayout[@resource-id='com.obilet.androidside:id/journey_type_tabLayout']/android.view.View"
+* "id" tipindeki elementin ekranda bulunduğu kontrol edilir "com.obilet.androidside:id/find_bus_journey_from_where_label"
+* "id" tipindeki elementin ekranda bulunduğu kontrol edilir "com.obilet.androidside:id/find_bus_journey_from_where_textView"
+
+# Nereden Tıklanır Arama Yapılacak Yer Seçilir
+* "id" tipindeki elemente tıklanır "com.obilet.androidside:id/find_bus_journey_from_where_textView"
+* "id" tipindeki elemente "Prag" değeri yazılır "com.obilet.androidside:id/search_editText"
+* "xpath" tipindeki Element Görünene Kadar Beklenir "//androidx.recyclerview.widget.RecyclerView[@resource-id='com.obilet.androidside:id/find_journey_location_recyclerView']/android.widget.LinearLayout[1]"
+* "xpath" tipindeki elemente tıklanır "//androidx.recyclerview.widget.RecyclerView[@resource-id='com.obilet.androidside:id/find_journey_location_recyclerView']/android.widget.LinearLayout[1]"
+
+# Nereye Tıklanır Arama Yapılacak Yer Seçilir
+* "id" tipindeki elemente tıklanır "com.obilet.androidside:id/find_bus_journey_to_where_textView"
+* "id" tipindeki elemente "Berlin" değeri yazılır "com.obilet.androidside:id/search_editText"
+* "xpath" tipindeki Element Görünene Kadar Beklenir "//androidx.recyclerview.widget.RecyclerView[@resource-id='com.obilet.androidside:id/find_journey_location_recyclerView']/android.widget.LinearLayout[1]"
+* "xpath" tipindeki elemente tıklanır "//androidx.recyclerview.widget.RecyclerView[@resource-id='com.obilet.androidside:id/find_journey_location_recyclerView']/android.widget.LinearLayout[1]"
+
+# Tarih Alanına Tıklanır ve Rastgele Tarih Seçilir
+* "id" tipindeki elemente tıklanır "com.obilet.androidside:id/find_bus_journey_departure_date_textView"
+* "id" tipindeki elementin ekranda bulunduğu kontrol edilir "com.obilet.androidside:id/date_picker_calendar_departure_date_textView"
+* Rastgele bir gidiş tarihi seçilir
+
+# Otobüs Bileti Bul Butonuna Tıklanır
+* "id" tipindeki elemente tıklanır "com.obilet.androidside:id/find_bus_journey_find_button"
+* "id" tipindeki elementin geçiş yapılan sayfada olduğunu kontrol edilir "com.obilet.androidside:id/quick_filter_order_main_layout"
+
+# Seferler Sayfasından Rastgele Bir Sefer Seçilir
+* "xpath" tipindeki elementin ekranda bulunduğu kontrol edilir "(//android.view.ViewGroup[@resource-id='com.obilet.androidside:id/item_bus_journey_list_rootLayout'])"
+* Rastgele bir sefer seçilir
+
+# Koltuk Sayısı Seçilir ve Ödeme Adımına Gidilir
+* "id" tipindeki elementin ekranda bulunduğu kontrol edilir "com.obilet.androidside:id/item_detail_info_textView"
+* Koltuk sayısı "2" değeri kadar seçilir
+* "xpath" tipindeki elemente tıklanır "(//android.widget.ImageView[@resource-id='com.obilet.androidside:id/branded_fare_price_next_button'])[1]"
+* "id" tipindeki elementin geçiş yapılan sayfada olduğunu kontrol edilir "com.obilet.androidside:id/payment_options_header_textView"
+
+
+
+
+
+
